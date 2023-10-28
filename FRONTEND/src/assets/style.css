@@ -1,0 +1,55 @@
+body {
+    background-color: red;
+}
+
+/* header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: 80px;
+    background-color: #ffff;
+    padding: 2px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.header-logo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo img {
+    height: 80%;
+    width: 110px;
+    border-radius: 50%;
+}
+
+/* product-card */
+.product-card {
+    border: 1px solid #ccc;
+
+}
+
+.product-card img {
+    width: 100%;
+    height: 250px;
+}
+
+/* admin */
+
+.admin .loginadmin {
+    height: 100%;
+}
+
+.formlogin {
+    border-radius: 5px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background-color: #ffff;
+}
